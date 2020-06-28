@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RNReduxSeed' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RNReduxSeed
+
+  # target 'RNReduxSeed-tvOSTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+  target 'RNReduxSeedTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'RNReduxSeed-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RNReduxSeed-tvOS
+
+  target 'RNReduxSeed-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

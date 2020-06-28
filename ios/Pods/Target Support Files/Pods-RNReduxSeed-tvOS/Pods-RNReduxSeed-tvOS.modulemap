@@ -1,0 +1,6 @@
+framework module Pods_RNReduxSeed_tvOS {
+  umbrella header "Pods-RNReduxSeed-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
